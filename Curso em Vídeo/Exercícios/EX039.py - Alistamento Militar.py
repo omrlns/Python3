@@ -19,6 +19,6 @@ if (sexo.upper() == 'M'):
         diferenca = idade - 18
         print('Você deveria ter se alistado há {} anos!'.format(diferenca))
         alistamento = anoAtual - diferenca
-        print('Seu alistamento foi em {}, atente-se!'.format(alistamento))
+        print('Seu alistamento foi em {}!'.format(alistamento))
 else:
     print('Você é mulher, não precisa se alistar!')
