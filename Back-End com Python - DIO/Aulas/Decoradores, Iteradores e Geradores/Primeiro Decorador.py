@@ -5,9 +5,10 @@ def meuDecorador(funcao):
         print('ATÉ LOGO!')
 
     return conjunto
-    
+
+@meuDecorador  
 def mensagem():
     print('OLÁ MUNDO!')
 
-mensagem = meuDecorador(mensagem)
+# mensagem = meuDecorador(mensagem) -> versão antes do @meuDecorador
 mensagem()
