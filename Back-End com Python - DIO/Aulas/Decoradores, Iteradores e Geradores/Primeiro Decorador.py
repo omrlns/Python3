@@ -1,7 +1,7 @@
 def meuDecorador(funcao):
-    def conjunto():
+    def conjunto(*args, **kargs):
         print('BEM-VINDO')
-        funcao()
+        funcao(*args, **kargs)
         print('ATÉ LOGO!')
 
     return conjunto
